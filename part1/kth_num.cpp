@@ -16,11 +16,11 @@ void quick(int q[],int l, int r){
 
 int main (){
     int n,k;
-    scanf("%d%d",&n,&k);
+    cin >> n >> k;
     for (int i = 0; i < n; i++){
-        scanf("%d",&q[i]);
+        cin >> q[i];
     }
     quick(q,0,n-1);
-    printf("%d",q[k-1]);
+    cout << q[k-1];
     return 0;
 }
