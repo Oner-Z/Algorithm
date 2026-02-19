@@ -1,0 +1,16 @@
+//六位小数r - l < 1e-8 四位小数 r - l < 1e-6
+#include <iostream>
+using namespace std;
+
+int main(){
+    double n;
+    cin >> n;
+    double l = -100, r = 100;
+    while(r - l > 1e-8){
+        double mid = (l + r) / 2;
+        if(mid * mid * mid >= n) r = mid;
+        else l = mid;
+    }
+    printf("%f", l);
+    return 0;
+}
