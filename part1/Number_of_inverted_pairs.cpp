@@ -1,6 +1,9 @@
 #include <iostream>
+
 using namespace std;
+
 #define ll long long
+
 int q[100005],tmp[100005];
 
 ll merge(int l, int r){

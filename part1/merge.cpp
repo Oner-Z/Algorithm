@@ -1,5 +1,7 @@
 #include <iostream>
+
 using namespace std;
+
 int q[100005],tmp[100005];
 
 void merge(int q[],int l, int r){

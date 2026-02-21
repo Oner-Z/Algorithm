@@ -1,6 +1,8 @@
 //整数二分查找
 #include <iostream>
+
 using namespace std;
+
 int a[100005];
 
 int main(){
